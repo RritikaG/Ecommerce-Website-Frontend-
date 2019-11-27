@@ -19,6 +19,7 @@ import {ItemserviceService} from './itemservice.service';
 import {AppService} from './app.service';
 import {AuthenticateService} from './authenticate.service';
 import { OrderhistoryComponent } from './orderhistory/orderhistory.component';
+import { MainNavComponent } from './main-nav/main-nav.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { OrderhistoryComponent } from './orderhistory/orderhistory.component';
     ProfileComponent,
     AddProductComponent,
     FooterComponent,
-    OrderhistoryComponent
+    OrderhistoryComponent,
+    MainNavComponent
   ],
   imports: [
     BrowserModule,
