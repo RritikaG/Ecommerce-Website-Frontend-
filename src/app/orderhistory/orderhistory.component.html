@@ -1,6 +1,7 @@
-<h3 class="text-center">YOUR ORDER HISTORY</h3>
+<app-main-nav></app-main-nav>
+<h3 class="text-center text-dark">YOUR ORDER HISTORY</h3>
 
-<div class="container">
+<div class="container bg-dark " style="border: white 2px solid">
 <div *ngFor="let i of orderhistoryitem">
   <div class="d-flex flex-wrap">
     <div class="border border-dark p-2"><img style="height: 250px;width: 200px" src={{i.items.image}}></div>

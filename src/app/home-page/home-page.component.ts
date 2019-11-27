@@ -13,6 +13,7 @@ details = Details;
 items;
 category;
 pname;
+showcarousal: boolean;
   constructor(private router: Router, private service: AppService, private http: ItemserviceService) { }
 userdata;
   rolecondition;
@@ -22,6 +23,7 @@ userdata;
     }
     this.http.getdetails().subscribe((data) => {
    this.items = data;
+   this.showcarousal = true;
     });
     this.http.getuserdetails().subscribe((data) => {
       this.userdata = data;
@@ -53,6 +55,7 @@ userdata;
     console.log(this.pname);
     this.http.searchproduct(this.pname).subscribe((data) => {
         this.items = data;
+        this.showcarousal = false;
      });
     }
 
