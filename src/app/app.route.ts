@@ -7,6 +7,7 @@ import {SignUpComponent} from './sign-up/sign-up.component';
 import {ProfileComponent} from './profile/profile.component';
 import {OrderhistoryComponent} from './orderhistory/orderhistory.component';
 import {AddProductComponent} from './add-product/add-product.component';
+import {HomeComponent} from './home/home.component';
 
 export const MAIN_ROUTES: Routes = [
   {
@@ -14,7 +15,7 @@ export const MAIN_ROUTES: Routes = [
   },
   {
   path: 'home',
-  component: HomePageComponent,
+  component: HomeComponent,
 },
   {
     path: 'user',

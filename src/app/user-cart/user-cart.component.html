@@ -1,8 +1,8 @@
 <!--<div class="btn btn-primary text-danger" (click)="getTotal()">CALCULATE</div> -->
+<app-main-nav></app-main-nav>
 <div class="container d-flex mt-4 mb-0">
   <div class="mr-auto"><h2  class="text-dark" style="font-family:Algerian">My Cart</h2></div><div><div class="btn btn-dark btn-outline-primary" (click)="clearcart()">ClearCart</div></div>
   <div><div class="btn btn-dark btn-outline-danger" (click)="checkout()">CheckOut</div></div>
-  <div><div class="btn btn-dark btn-outline-warning" [routerLink]="['/home']">HOME</div></div>
   <div><div class="btn btn-dark btn-outline-success" data-toggle="modal" data-target="#myModal">PAY Rs. {{total}}</div></div>
 </div>
 <div class="container bg-dark" style="border: white 2px solid">

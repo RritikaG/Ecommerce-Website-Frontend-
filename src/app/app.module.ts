@@ -20,6 +20,7 @@ import {AppService} from './app.service';
 import {AuthenticateService} from './authenticate.service';
 import { OrderhistoryComponent } from './orderhistory/orderhistory.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { MainNavComponent } from './main-nav/main-nav.component';
     AddProductComponent,
     FooterComponent,
     OrderhistoryComponent,
-    MainNavComponent
+    MainNavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
